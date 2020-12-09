@@ -6,13 +6,36 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>La dénonciation</title>
+
+    <link rel="stylesheet" href="css/lib/normalize.css">
+    <link rel="stylesheet" href="css/mescss/typography.css">
+    <link rel="stylesheet" href="css/mescss/layout.css">
+    <link rel="stylesheet" href="css/mescss/menu.css">
+    <link rel="stylesheet" href="css/mescss/la-dénonciation-styles.css">
+
 </head>
 
-<body>
+<body class="">
+<header>
+    <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
+        <div class="nav-toggle-bar"></div>
+    </div>
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="La%20dénonciation.html">La dénonciation</a></li>
+            <li><a href="La%20pollution%20numérique.html">La pollution numérique</a></li>
+            <li><a href="Limiter%20cette%20pollution.html">Limiter cette pollution</a></li>
+            <li><a href="Autres%20projets.html">Autres projets</a></li>
+            <li><a href="A%20propos-contact.html">A propos / Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
 <img src="img/image-principale-1.png" alt="Image principale dénonciation">
 <h1>La dénonciation</h1>
 <h2>A propos de South Park</h2>
-<p>South Park est une série animée américaine diffusée à la télévision et à la demande depuis 1997, avec comme personnages principaux 4 garçons aux grandes personnalités.
+<p class="chapeau">South Park est une série animée américaine diffusée à la télévision et à la demande depuis 1997, avec comme personnages principaux 4 garçons aux grandes personnalités.
 
     La série traite et critique des sujets d'actualité (comme les élections présidentielles, les attentats du 11 septembre et tout récemment la COVID-19).
 
@@ -49,6 +72,7 @@ Amazon prime video diffuse South Park
     Et oui ! Personne n'en a conscience, mais tout le monde y contribue. Par exemple, un seul mail non supprimé dans votre messagerie rejette des émissions de carbone dans l'environnement. Elle est représentée dans l’épisode par l’utilisation des services de streaming audio et vidéo que propose Amazon.
 
     Ces derniers utilisent grandement le stockage sur des centres de données, leur consommation en énergie est immense. J'aimerais alors vous en apprendre plus à ce sujet, dans le but de compléter ce que dénonce South Park et interpréter cette pollution invisible.</p>
+
 <footer>
 <img src="img/logo.png" alt="logo du site">
     Nathan Baumann TP A1
@@ -58,7 +82,7 @@ Amazon prime video diffuse South Park
     Twitter Youtube Instagram
 
     <mentions-légales>
-        Projet réalisé dans le cadre d’un exercice pédagogique au département MMi de Montbéliard
+        Projet réalisé dans le cadre d’un exercice pédagogique au <a href="http://mmimontbeliard.com/">département MMi de Montbéliard</a>
     </mentions-légales>
 </footer>
 </body>
