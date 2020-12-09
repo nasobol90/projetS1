@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&family=Lato&display=swap');
+
+html{
+    font-size: 62.5%; /* Permet de passer de px à rem sur une base de 10*/
+}
+body {
+    font-family: Lato, sans-serif;
+    font-size: 1.7rem;
+    line-height: 1.7;
+    color: #F3BD66;
+
+}
+/*Typographie des titres*/
+
+h1,h2{
+    font-family: "Jockey One", sans-serif;
+    color: #EB9000;
+}
+h1{
+    font-size: 3.5rem;
+    line-height: 3.5;
+}
+
+h2{
+    font-size: 2.6rem;
+    line-height: 2.6;
+}
+
+a{
+    text-decoration: none;
+    color:#EB9000
+}
