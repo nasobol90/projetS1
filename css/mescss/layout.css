@@ -46,6 +46,10 @@ img.articles {
     margin-right: auto;
 }
 
+video {
+    padding-left: 37px;
+}
+
 footer {
     background-color: #310105;
 }
