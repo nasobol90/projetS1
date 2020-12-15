@@ -40,10 +40,14 @@ hr {
     background-color: indigo;
     height: 2253px;
 }
-img.articles {
+img.articles, img.principale-articles {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+img.principale-articles {
+    padding-top: 80px;
 }
 
 video {
