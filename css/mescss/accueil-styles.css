@@ -1,0 +1,16 @@
+img.logo-accueil {
+position: absolute;
+    top: 220px;
+    left: 90px;
+    z-index: -1;
+}
+img.principale {
+    z-index: -2;
+}
+
+h1 {
+    position: absolute;
+    top : 380px;
+    z-index: -1;
+}
+
