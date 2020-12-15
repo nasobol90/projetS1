@@ -3,6 +3,23 @@ html {
     width: 375px;
 }
 
+header {
+    background-color: #93000E;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+header.accueil {
+    height: 0;
+}
+
+img.logo-header {
+    position: absolute;
+    left: 150px;
+    top: 5px;
+}
 p, h1, h2 {
     margin-left: 10px;
     margin-right: 10px;
@@ -17,7 +34,11 @@ hr {
     border-width: 2px;
     margin-inline-start: 50px;
     margin-inline-end: 50px;
+}
 
+.article-scientifique {
+    background-color: indigo;
+    height: 2253px;
 }
 img.articles {
     display: block;
@@ -80,4 +101,11 @@ ul.sources {
 
 ul.projets>li:not(:last-child) {
     padding-bottom: 10px;
+}
+svg {
+    padding-left: 108px;
+}
+
+svg.boutons {
+    padding-left: 18px;
 }
