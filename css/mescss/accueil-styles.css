@@ -14,3 +14,8 @@ h1 {
     z-index: -1;
 }
 
+img.tweet {
+    width: 80%;
+    margin-left: 35px;
+    padding-top: 30px;
+}
