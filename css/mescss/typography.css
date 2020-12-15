@@ -19,15 +19,26 @@ h1,h2{
 }
 h1{
     font-size: 3.5rem;
-    line-height: 3.5;
 }
 
 h2{
     font-size: 2.6rem;
-    line-height: 2.6;
 }
-
+.menu{
+    font-family: "Jockey One", sans-serif;
+    font-size: 3rem;
+}
 a{
     text-decoration: none;
     color:#EB9000
+}
+
+footer {
+    font-size: 1.3rem;
+    line-height: 2;
+}
+
+p.mentions-légales {
+    font-size: 1.2rem;
+    line-height: 1.2;
 }

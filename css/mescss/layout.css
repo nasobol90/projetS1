@@ -1,3 +1,57 @@
 html {
     background-color: #93000E;
 }
+
+p, h1, h2 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+img.articles {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    background-color: #310105;
+}
+
+div.footer {
+    display: table-cell;
+    text-align: center;
+    vertical-align: top;
+    padding-top: 5px;
+    width: 50%;
+
+}
+img.logo {
+    padding-top: 35px;
+}
+
+img.icones {
+    padding: 5px;
+}
+
+footer>p {
+    text-align: center;
+}
+
+footer hr {
+    border-color: #317A34;
+    border-width: 2px;
+}
+
+p.mentions-légales {
+    padding-bottom: 5px;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+ul.projets {
+    list-style: none;
+}
