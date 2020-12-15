@@ -7,6 +7,17 @@ p, h1, h2 {
     margin-right: 10px;
 }
 
+h1, h2 {
+    text-align: center;
+}
+
+hr {
+    border-color: #317A34;
+    border-width: 2px;
+    margin-inline-start: 50px;
+    margin-inline-end: 50px;
+
+}
 img.articles {
     display: block;
     margin-left: auto;
@@ -40,18 +51,32 @@ footer>p {
 footer hr {
     border-color: #317A34;
     border-width: 2px;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
 }
+
+
 
 p.mentions-légales {
     padding-bottom: 5px;
     margin-bottom: 0;
     margin-top: 5px;
+
 }
 
 h1, h2 {
     text-align: center;
 }
 
-ul.projets {
+ul {
     list-style: none;
+}
+
+ul.sources {
+    text-align: center;
+    padding: 0;
+}
+
+ul.projets>li:not(:last-child) {
+    padding-bottom: 10px;
 }
